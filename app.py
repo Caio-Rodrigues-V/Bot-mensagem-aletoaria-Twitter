@@ -52,9 +52,11 @@ def logar(passw,email,user):
     
         next_button = WebDriverWait(driver,30).until(EC.element_to_be_clickable((By.XPATH,"//span[text()='Avançar']")))
         next_button.click()
-        
-        user_field = WebDriverWait(driver, 30).until(EC.element_to_be_clickable((By.NAME,"text")))
-        user_field.send_keys(usuario)
+        try:
+            user_field = WebDriverWait(driver, 30).until(EC.element_to_be_clickable((By.NAME,"text")))
+            user_field.send_keys(usuario)
+        except TimeoutException:
+            print("Tempo limite excedido ao aguardar por um elemento.")
         
         next = WebDriverWait(driver,10).until(EC.element_to_be_clickable((By.XPATH,"//span[text()='Avançar']")))
         next.click()
