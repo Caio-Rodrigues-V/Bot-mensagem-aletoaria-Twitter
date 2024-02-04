@@ -1,4 +1,4 @@
-#Twitter Bot com Selenium
+## Twitter Bot com Selenium
 
 Este é um bot desenvolvido com Selenium para gerar mensagens aleatórias no Twitter.
 
