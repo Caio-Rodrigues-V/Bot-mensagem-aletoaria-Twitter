@@ -6,16 +6,30 @@ Este é um bot desenvolvido com Selenium para gerar mensagens aleatórias no Twi
 
 Antes de começar a utilizar o bot, certifique-se de configurar corretamente o arquivo `dados.py`. Nele, insira suas credenciais de login, usuário e senha do Twitter.
 
+## Instalando o Selenium:
+
+Você pode instalar o Selenium usando o pip, o gerenciador de pacotes do Python. Execute o seguinte comando no terminal ou prompt de comando:
+
+pip install selenium
+
+
+
+
+
+
 ### Configuração
 
 1. Abra o arquivo dados.py.
 2. Insira suas credenciais:
 
-´´´
+
+```
 LOGIN = 'seu_login'
 USUARIO = 'seu_usuario'
 SENHA = 'sua_senha'
-´´´
+```
+
+
 
 
 ### Como alterar o Looping
