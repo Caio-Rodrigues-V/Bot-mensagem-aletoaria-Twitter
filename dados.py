@@ -1,3 +1,3 @@
-emaill = 'seulogin'
-pw = 'suasenha'
-usuario = 'seuuser'
+emaill = 'seu login'
+pw = 'sua senha'
+usuario = 'seu user'
