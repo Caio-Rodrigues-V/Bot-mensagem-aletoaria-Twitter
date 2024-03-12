@@ -2,7 +2,7 @@ const qrcode = require('qrcode-terminal');
 const { Client } = require('whatsapp-web.js');
 const client = new Client();
 const conversations = [];
-const timeoutDuration = 60000; // 60 segundos
+const timeoutDuration = 180000; // 60 segundos
 const path = require('path'); // Importe o módulo 'path' para trabalhar com caminhos de arquivos
 
 // Função para verificar a inatividade do usuário e encerrar a conversa, se necessário
